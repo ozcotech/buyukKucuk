@@ -39,7 +39,7 @@ public static void main(String[] args) {
       System.out.println("Küçükten büyüğe doğru sıralama şu şekildedir: " + b + " < " + c + " < " + a );
     }
   }
-  else if (c < b && c < a){
+  else /*if (c < b && c < a)*/{
     if (b < a){
       System.out.println("Küçükten büyüğe doğru sıralama şu şekildedir: " + c + " < " + b + " < " + a );
     }
